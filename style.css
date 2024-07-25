@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.logo_img {
+  width: 30px;
+}
+.logo_txt {
+  font-family: "Zain", sans-serif;
+  /* font-weight: 00; */
+  font-size: x-large;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+  /* blur */
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 100px;
+  border: 1px solid rgba(22, 22, 22, 0.18);
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+img {
+  width: 50px;
+  margin: 5px;
+}
+div {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+li {
+  padding-left: 7px;
+  padding-right: 7px;
+}
